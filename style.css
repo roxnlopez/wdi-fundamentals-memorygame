@@ -1,6 +1,9 @@
 body{
 	margin: 0;
+<<<<<<< HEAD
 	text-align: center;
+=======
+>>>>>>> 55eb3e3371745f0f51f4ce620a35ea48036ffe24
 }
 
 header {
@@ -47,7 +50,11 @@ p {
 
 nav {
 	background-color: #00a6b3;
+<<<<<<< HEAD
 	padding: 20px 0;
+=======
+	padding: 20px 0px;
+>>>>>>> 55eb3e3371745f0f51f4ce620a35ea48036ffe24
 
 }
 
@@ -57,7 +64,11 @@ main {
 }
 
 img {
+<<<<<<< HEAD
 	margin: 40px, 8px, 0, 8px;
+=======
+	margin: 40px, 8px, 0px, 8px;
+>>>>>>> 55eb3e3371745f0f51f4ce620a35ea48036ffe24
 }
 
 footer {
