@@ -1,4 +1,4 @@
-//console.log("Up and running!");
+console.log("Up and running!");
 
 var cards = [
 	{
@@ -22,6 +22,9 @@ var cards = [
 		cardImage: "images/king-of-diamonds.png"
 	}
 ];
+
+console.log("Hello World");
+
 var cardsInPlay = [];
 
 
@@ -36,6 +39,7 @@ var checkForMatch = function(){
 	}
 };
 };
+console.log("Roxann is my name");
 
 var flipCard = function(){
 	this.getAttribute('data-id');
@@ -46,7 +50,7 @@ var flipCard = function(){
 	console.log(cards.suit);
 	document.addEventListener('click', cardElement);
 };
-
+console.log("JS is hard");
 var createBoard = function () {
 	for (var i=0; i<cards.length; i++) {
 		var cardElement = document.createElement('img');
@@ -59,5 +63,6 @@ var createBoard = function () {
 	}
 };
 createBoard();
+console.log("Roxann is my name");
 
 
